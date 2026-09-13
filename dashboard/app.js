@@ -114,3 +114,8 @@ window.addEventListener('resize', function() {
   barChart.resize();
   pieChart.resize();
 });
+$("#cards").on("click",".card",function(){
+
+    $(this).toggleClass("active");
+
+});
