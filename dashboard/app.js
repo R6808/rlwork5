@@ -110,3 +110,7 @@ $('.buttons button').on('click', function() {
     renderCharts(result);
   }
 });
+window.addEventListener('resize', function() {
+  barChart.resize();
+  pieChart.resize();
+});
